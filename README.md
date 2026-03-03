@@ -17,6 +17,18 @@ This project implements a sophisticated **Retrieval-Augmented Generation (RAG)**
 
 ## Setup
 
-### 1. Create virtual environment
-```bash
-python -m venv venv
+1. Create virtual environment:
+   python -m venv venv
+
+2. Activate:
+   venv\Scripts\activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Create .env file:
+   GOOGLE_API_KEY=your_api_key_here
+
+5. Run:
+   Streamlit run app.py
+
